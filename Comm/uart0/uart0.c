@@ -121,19 +121,7 @@ void Uart0RcvData(u8 dat)
 					break;
 				case IDGETRECORDACK:
 					uart0_Rx.len = 16;
-					break;
-				case IDREMOVERECORD:
-					uart0_Rx.len = 16;
-					break;
-				case IDRESTORE:
-					uart0_Rx.len = 16;
-					break;				
-				case IDCOMMTEST:
-					uart0_Rx.len = 16;
-					break;					
-				case IDUPDATEPROGRAM:
-					uart0_Rx.len = 8;
-					break;				
+					break;			
 				default:
 					uart0_Rx.len = 0;
 					break;	

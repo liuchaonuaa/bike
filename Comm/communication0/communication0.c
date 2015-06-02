@@ -30,17 +30,6 @@ static void comm0_GetLiftCtrlPara(void);
 static void comm0_SetLiftCtrlRate(void);	
 static void comm0_GetLiftCtrlRate(void);	
 static void comm0_RemoteCtrl(void);		
-static void comm0_TimerOpenCtrl(void);	
-static void comm0_CircleOpenCtrl(void);	
-static void comm0_Guashi(void);			
-static void comm0_Jiegua(void);			
-static void comm0_GetRecordNum(void);	
-static void comm0_GetRecord(void);		
-static void comm0_GetRecordAck(void);	
-static void comm0_RemoveRecord(void);	
-static void comm0_Restore(void);		
-static void comm0_Test(void);		
-static void comm0_UpdateProgram(void);		
 
 
 static Comm0_Control_Struct comm0_Control[] = {
