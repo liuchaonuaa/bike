@@ -52,6 +52,14 @@ static Comm0_Control_Struct comm0_Control[] = {
 	{ IDTIMEROPEN,     comm0_TimerOpenCtrl   },
 	{ IDCIRCLEOPEN,    comm0_CircleOpenCtrl  },
 	{ IDGUASHI,        comm0_Guashi          },
+	{ IDJIEGUA,        comm0_Jiegua          },
+	{ IDGETRECORDNUM,  comm0_GetRecordNum    },
+	{ IDGETRECORD,     comm0_GetRecord       },
+	{ IDGETRECORDACK,  comm0_GetRecordAck    },
+	{ IDREMOVERECORD,  comm0_RemoveRecord    },
+	{ IDRESTORE,       comm0_Restore         },
+	{ IDCOMMTEST,      comm0_Test            },
+	{ IDUPDATEPROGRAM, comm0_UpdateProgram   },
 };
 
 #define COMM0_MAX_FUNC   (sizeof(comm0_Control) / sizeof(comm0_Control[0]))
